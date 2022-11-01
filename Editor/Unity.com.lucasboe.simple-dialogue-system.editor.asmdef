@@ -1,0 +1,17 @@
+{
+    "name": "LucasBoe.SimpleDialogueSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3c7b2cc33e8bfe34398e8e4d02f2dbcd",
+        "GUID:776d03a35f1b52c4a9aed9f56d7b4229"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

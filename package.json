@@ -14,6 +14,8 @@
     "type": "git",
     "url": "git+ssh://git@github.com/lucasboe/simple-dialogue-system.git"
   },
-  "hideInEditor": "false",
+  "dependencies": {
+    "com.dbrizov.naughtyattributes": "2.1.4"
+  },
   "author": "LucasBoe (https://l-boe.de)"
 }
