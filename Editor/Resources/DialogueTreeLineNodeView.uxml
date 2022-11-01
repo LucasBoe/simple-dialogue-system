@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="DialogueTreeNodeView.uss" />
+    <ui:VisualElement name="node-state" picking-mode="Ignore" class="node-state" />
+    <ui:VisualElement name="node-border">
+        <ui:VisualElement name="contents" style="flex-direction: column;">
+            <ui:VisualElement name="head" style="flex-direction: row;">
+                <ui:Label text="Line" display-tooltip-when-elided="true" style="-unity-font-style: bold; -unity-text-align: upper-center; width: 100%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="body" style="flex-direction: row;">
+                <ui:VisualElement name="input" />
+                <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="textField" style="max-width: 95%; min-width: 80%;">
+                    <ui:Label text="(L)" display-tooltip-when-elided="true" name="localized" />
+                </ui:TextField>
+                <ui:VisualElement name="output" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+</ui:UXML>

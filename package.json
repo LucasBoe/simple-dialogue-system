@@ -1,0 +1,19 @@
+{
+  "name": "com.lucasboe.simple-dialogue-system",
+  "displayName": "LucasBoe DialogueSystem",
+  "version": "0.0.1",
+  "unity": "2020.3",
+  "description": "a simple scritpable object  based dialogue system with node edtitor.",
+  "keywords": [
+    "unity",
+    "unity3d",
+    "lucasboe"
+  ],
+  "homepage": "https://github.com/lucasboe/simple-dialogue-system.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucasboe/simple-dialogue-system.git"
+  },
+  "hideInEditor": "false",
+  "author": "LucasBoe (https://l-boe.de)"
+}
